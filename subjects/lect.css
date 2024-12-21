@@ -1,0 +1,61 @@
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    margin: 40px auto;
+    width: 100%; /* Cards take up full width of their container */
+    max-width: 400px; /* Ensures all cards are the same size */
+  }
+  
+  .card img {
+    width: 100px; /* Fixed width */
+    height: 100px; /* Fixed height */
+    object-fit: cover; /* Ensures the image is cropped to fit the size */
+    border-radius: 50%; /* Makes the image circular */
+    display: block; /* Makes the image a block-level element */
+    margin-left: auto; /* Centers the image horizontally */
+    margin-right: auto; /* Centers the image horizontally */
+    margin-bottom: 20px; /* Adds space below the image */
+    
+  }
+  
+  
+  .card:hover {
+    margin-bottom: 50px;
+    box-shadow: 20px 20px 10px rgb(18, 17, 17);
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-text {
+    line-height: 1.5;
+  }
+  
+  .card hr {
+    margin: 10px 0;
+  }
+  
+  .card-text br {
+    margin-bottom: 8px;
+  }
+  
+  .logo-border {
+    border: 2px solid #efe0e0; /* Black border with 2px thickness */
+    border-radius: 8px; /* Slightly rounded corners */
+    padding: 2px; /* Adds some padding inside the border */
+  }
+  
+  .container {
+    max-width: 960px;
+  }
+  
+ 

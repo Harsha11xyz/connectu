@@ -1,0 +1,5 @@
+.logo-border {
+    border: 2px solid #efe0e0; /* Black border with 2px thickness */
+    border-radius: 8px; /* Slightly rounded corners */
+    padding: 2px; /* Adds some padding inside the border */
+  }
